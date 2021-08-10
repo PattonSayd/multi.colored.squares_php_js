@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eceef2;
+    display: block;
+    
+    
+}
+button {
+    width: 70px;
+    height: 30px;
+    margin: 20px;
+    position: absolute;
+    z-index: 999;
+    border: 0;
+    border-radius: 7px;
+    background-color: #44cf60;
+    color: #ededed;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #39b352;
+    color: #ffffff;
+}
+
+.message {
+    min-width: 120px;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #dadada85;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -44px;
+    transform: translate(-50%, 0);
+    line-height: 40px;
+    border: 2px solid #b1b1b1;
+    border-radius: 4px;
+    transition: 0.2s;
+}
